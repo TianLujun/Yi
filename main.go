@@ -1,12 +1,16 @@
 package main
 
 import (
-	//."fmt"
+	."fmt"
 	."../basis"
 )
 
 func main() {
-	var qian GUA
-	qian.Init(YANG, YANG, YANG)
-	qian.Show()
+	var xtbg XianTianBaGua
+	xtbg.Init()
+	xtbg.Show()
+	Println()
+	var htbg HouTianBaGua
+	htbg.Init()
+	htbg.Show()
 }
